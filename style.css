@@ -1,0 +1,181 @@
+body {
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 8px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+  }
+  h3 {
+    color: #f1f1f1;
+  }
+  .svg-icon {
+    width: 1em;
+    height: 1em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #f1f1f1;
+  }
+  
+  .app {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .container {
+    width: 300px;
+    height: fit-content;
+    word-wrap: break-word;
+    background-color: rgb(10, 0, 46);
+    padding: 15px;
+    position: relative;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .container:hover {
+    background-color: rgba(10, 0, 46, 0.5);
+  }
+  
+  .triger {
+    margin: 20px 0;
+    min-width: 40%;
+    max-width: 100%;
+    position: relative;
+  }
+  
+  .triger .triger-header {
+    background: #f1f1f1;
+    border-radius: 5px 5px 0 0;
+    padding: 10px;
+    font-weight: bolder;
+    display: flex;
+    color: rgb(10, 0, 46);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    min-width: 100%;
+  }
+  
+  .triger .triger-header .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: rgb(10, 0, 46);
+  }
+  .triger .noteTitle {
+    flex-grow: 1;
+  }
+  .triger .triger-body {
+    background: #f1f1f1;
+    border-radius: 0 0px 5px 5px;
+    padding: 10px;
+    font-weight: bolder;
+    color: rgb(10, 0, 46);
+    cursor: pointer;
+    min-width: 100%;
+  }
+  .triger .triger-body .container {
+    width: 100%;
+  }
+  .row {
+    margin: 0px 0;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    color: gray;
+    flex-direction: column;
+  }
+  .row h3 {
+    color: white;
+    margin: 0;
+  }
+  h3 span {
+    background: rgb(10, 0, 46);
+    border-radius: 50%;
+    padding: 5px;
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 20px;
+    max-height: 20px;
+    font-size: 15px;
+    color: gray;
+  }
+  .row {
+    margin: 0;
+  }
+  .row input {
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(10, 0, 46);
+    color: rgb(10, 0, 46);
+    padding: 10px;
+  }
+  .row textarea {
+    height: 70px;
+    border-radius: 5px;
+    border: 1px solid rgb(10, 0, 46);
+    color: rgb(10, 0, 46);
+    padding: 10px;
+  }
+  
+  .row .btn {
+    background-color: #21006f;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .completed {
+    background-color: #1d2a35;
+  }
+  
+  .completed h3 {
+    text-decoration: line-through;
+  }
+  .completed span {
+    text-decoration: line-through;
+  }
+  .delete {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    background: none;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .delete .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: rgb(209, 15, 15);
+  }
+  .delete .svg-icon,
+  .Close .svg-icon {
+    width: 2.5em;
+    height: 2.5em;
+  }
+  .Close {
+    padding: 10px;
+    background: none;
+    cursor: pointer;
+    border: none;
+    right: 0;
+  }
+  
+  .Close .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: rgb(209, 15, 15);
+  }
+  
